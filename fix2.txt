@@ -67,3 +67,4 @@ git checkout feature3
 notepad fix2.txt
 git add fix2.txt
 git commit --amend
+git push -u origin main
