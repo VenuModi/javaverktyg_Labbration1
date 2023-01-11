@@ -46,3 +46,5 @@ git commit -m "Create file fix2.txt"
 git checkout main
 git cherry-pick feature2
 git status
+git remote add origin https://github.com/VenuModi/javaverktyg_Labbration1.git
+git push -u origin main
