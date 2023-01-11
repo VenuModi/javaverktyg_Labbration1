@@ -48,3 +48,22 @@ git cherry-pick feature2
 git status
 git remote add origin https://github.com/VenuModi/javaverktyg_Labbration1.git
 git push -u origin main
+git tag -a v1.0 -m "Version 1.0"
+git log --oneline
+git rebase -i 620db94
+git log 
+git branch feature3
+git checkout feature3
+notepad fix2.txt
+git add fix2.txt
+git commit -m "Added git commands"
+git commit --amend
+git checkout main
+git merge feature3
+git reset HEAD~
+git status
+git reset --hard
+git checkout feature3
+notepad fix2.txt
+git add fix2.txt
+git commit --amend
